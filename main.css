@@ -1,0 +1,430 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
+
+:root {
+  --primary-color: #ec5242;
+  --dark-color: #272a31;
+  --light-color: #d3d3d3;
+  --lighter-color: #f7f7f7;
+  --gray-color: #3d3d3d;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: #fff;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+h1,
+h2 {
+  font-weight: 300;
+  line-height: 1.2;
+  margin: 10px 0;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.top-nav {
+  display: none;
+}
+
+.bottom-nav {
+  display: none;
+}
+
+.mobile-menu {
+  position: absolute;
+  top: 0%;
+  width: 100%;
+  height: 100vh;
+  left: 0;
+  display: none;
+  background-color: rgb(221 70 46 / 88%);
+  backdrop-filter: blur(7px);
+  animation-name: animatemobilebackground;
+  animation-duration: 0.8s;
+}
+
+@keyframes animatemobilebackground {
+  from {
+    top: -300px;
+    opacity: 0;
+  }
+
+  to {
+    top: 0%;
+    opacity: 1;
+  }
+}
+
+.mobile-menu-list {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 18%;
+  left: 20%;
+}
+
+.mobile-menu-item {
+  color: #d3d3d3;
+  font-weight: 800;
+  font-size: 43px;
+  margin-bottom: 25px;
+}
+
+.mobile-menu-item a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: inherit;
+}
+
+.close-button {
+  position: absolute;
+  width: 50px;
+  top: 3%;
+  right: 6%;
+  filter: grayscale(100%);
+}
+
+.mobile i {
+  font-size: 30px;
+}
+
+.hamburger {
+  padding: 2% 0 0 2%;
+}
+
+.showcase {
+  background-image: url("assets/images/mobile-home-bg.png");
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-size: cover;
+  height: 550px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  padding: 0 10px;
+}
+
+.showcase .container {
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+}
+
+.showcase .hello {
+  color: var(--primary-color);
+}
+
+.showcase h1 {
+  font-size: 25px;
+  font-weight: 900;
+  color: transparent;
+  background-image: url("assets/images/orangebg.jpg");
+  -webkit-background-clip: text;
+}
+
+.showcase .showcase-p {
+  border: 5px solid #fff;
+  background: var(--lighter-color);
+  padding: 5px 10px;
+  margin: 20px 0;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2c2c2c;
+  margin-top: 20px;
+  text-align: center;
+  width: 227px;
+}
+
+.showcase h3 {
+  color: var(--gray-color);
+  font-weight: 900;
+  font-size: 25px;
+  text-align: left;
+}
+
+.showcase-text .intro-p {
+  font-family: sans-serif, 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 25px;
+  align-items: center;
+  text-align: center;
+  color: #000;
+}
+
+.email-link {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: center;
+}
+
+.ccglobal img {
+  width: 350px;
+  height: 135px;
+}
+
+.bottom-text {
+  font-family: sans-serif, 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+  text-align: center;
+  color: #7a7a7a;
+  width: 354px;
+}
+
+.gallery {
+  display: grid;
+  justify-items: center;
+  margin-top: 100px;
+}
+
+.gallery p {
+  font-size: 12px;
+  width: 320px;
+  text-align: center;
+}
+
+.gallery-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.gallery-img img {
+  width: 334px;
+  height: 182px;
+}
+
+.footer-about {
+  background-color: #2e2e2e;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer-about img {
+  width: 325px;
+  height: 61px;
+  margin-top: 20px;
+}
+
+.footer-about p {
+  color: #fff;
+  width: 500px;
+  font-size: 10px;
+}
+
+/* program */
+
+.main-progam {
+  background-image: url("assets/images/program.png");
+  background-size: cover;
+  background-repeat: repeat;
+  width: 100%;
+  height: auto;
+  padding-bottom: 35px;
+}
+
+.main-progam .program-heading {
+  color: #fff;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 3%;
+}
+
+.main-progam hr {
+  width: 10%;
+  height: 1px;
+  border: none;
+  margin: 0 auto;
+  background-color: #ec5242;
+}
+
+.program-list {
+  margin: 6% 2%;
+  display: flex;
+  flex-direction: column;
+}
+
+.program-item {
+  background-color: #ffffff2b;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px 4px;
+  width: 100%;
+}
+
+.program-image {
+  margin-right: 10px;
+  width: 15%;
+}
+
+.project-title {
+  color: #ec5242;
+  margin-right: 10px;
+  font-size: 20px;
+  width: 25%;
+  text-align: center;
+}
+
+.program-detail {
+  color: #fff;
+  width: 60%;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 550;
+}
+
+.link-container {
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  background-color: #ec5242;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-container p {
+  text-align: center;
+  padding: 20px 10px;
+  font-weight: 500;
+  font-size: 23px;
+}
+
+.fs-hr {
+  background-color: #ff5438;
+  border: none;
+  height: 5px;
+  width: 50px;
+  margin-top: 0;
+}
+
+.main-program .fs-hr {
+  margin-top: -50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 50px;
+  gap: 10px;
+  width: 300px;
+  height: 68px;
+  background: #ff4f38;
+}
+
+.partners {
+  display: none;
+}
+
+footer {
+  display: none;
+}
+
+.see-programs {
+  display: none;
+}
+
+.featHead {
+  text-align: center;
+  font-weight: 600;
+}
+
+.featureLine {
+  width: 10%;
+  height: 2px;
+  background-color: #ec5242;
+  margin: 0 auto;
+}
+
+.featureContan {
+  width: 95%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.featureCard {
+  border: 1px solid black;
+  display: flex;
+  gap: 5px;
+}
+
+.hiddenCard {
+  display: none;
+}
+
+.featureImage {
+  width: 30%;
+  height: 120px;
+}
+
+.featureName {
+  border: 1px solid black;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.featureparag1 {
+  border: 1px solid black;
+  font-size: 0.6rem;
+  color: #ec5242;
+}
+
+.branch2 {
+  width: 5%;
+  height: 1px;
+  background-color: #d3d3d3;
+}
+
+.featureparag2 {
+  border: 1px solid black;
+  font-size: 0.6rem;
+}
+
+.btnMore {
+  width: 95%;
+  height: 30px;
+  background-color: #fff;
+  border: 1px solid #0000005a;
+  margin: 0 auto;
+}
