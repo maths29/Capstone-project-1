@@ -89,7 +89,7 @@ const featureContan = document.createElement('div');
 featureContan.classList.add('featureContan');
 featureSect.appendChild(featureContan);
 
-for (let i = 0; i < featureData.length; i++) {
+for (let i = 0; i < featureData.length; i += 1) {
   const data = featureData[i];
 
   const featureCard = document.createElement('div');
