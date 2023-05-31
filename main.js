@@ -50,27 +50,27 @@ const featureData = [
   },
 
   {
-    name: 'Ryan Merkley',
-    image: 'assets/images/speaker_06.png',
-    position: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+    name: 'Lila tretikov',
+    image: 'assets/images/speaker_03.png',
+    position: 'Executive Director of the Wikimedia Foundation',
     archievement:
-      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+      'Lila Tretikov is the Executive of the Wikimedia Foundation, the nonprofit organization that operates Wikipedia. Wikipedia is freely available in 290 languag-es and used by nearly half a billion people around the world every month.',
   },
 
   {
-    name: 'Ryan Merkley',
-    image: 'assets/images/speaker_06.png',
-    position: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+    name: 'SohYeong Noh',
+    image: 'assets/images/speaker_02.png',
+    position: 'Director of Art Centre Nabi and a board member of CC Korea',
     archievement:
-      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+      'Executive Director of the Wikimedia Foundation',
   },
 
   {
-    name: 'Ryan Merkley',
-    image: 'assets/images/speaker_06.png',
-    position: 'CEO of Creativve Commons, ex COO of the Mozilla Foundation',
+    name: 'Julia Leda',
+    image: 'assets/images/speaker_05.png',
+    position: 'President of Young Pirates of Europe',
     archievement:
-      'Ryan had been leading open-source projects at the Mozilla Foundation such as the open-source move-ment',
+      'European ingetration, political democracy and participation of youth through online as her major condern, Reda’s report outlining potential changes to EU copyright law was approved by the Parliament in July',
   },
 ];
 
