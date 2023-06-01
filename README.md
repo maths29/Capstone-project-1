@@ -113,8 +113,8 @@ To run tests, run the following command:
 ### Deployment
 
 - Project is deployed using [GitHub Pages](https://pages.github.com/)
-- <a href=" https://maths29.github.io/Capstone-project-1/">[🚀 Live Demo Link ] </a>
-
+- 
+- [Live Demo Link](https://maths29.github.io/Capstone-project-1/)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!-- AUTHORS -->
 
@@ -147,7 +147,7 @@ To run tests, run the following command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the <a href="https://github.com/maths29/Capstone-project-1./issues"> issues page </a>
+Feel free to check the [issues page](https://github.com/maths29/Capstone-project-1/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -171,6 +171,6 @@ I'd like to thank and give credit to  [Behance](https://www.behance.net/gallery/
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

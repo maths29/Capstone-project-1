@@ -15,7 +15,7 @@
 }
 
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
   color: #333;
   line-height: 1.6;
   background: #fff;
@@ -606,10 +606,18 @@ footer {
 
   .featureContan {
     width: 95%;
-    margin: 50px auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding-left: 70px;
+    padding-right: 50px;
+    margin-top: 50px;
+    margin-left: 70px;
+    margin-right: 50px;
+  }
+
+  .featureparag2 {
+    width: 70%;
   }
 
   .hiddenCard {
