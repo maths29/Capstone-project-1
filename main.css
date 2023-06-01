@@ -134,9 +134,11 @@ p {
 }
 
 .showcase h1 {
-  font-size: 25px;
+  width: 98%;
+  font-size: 30px;
   font-weight: 900;
   color: transparent;
+  -webkit-text-stroke: 1px #ec5242;
   background-image: url("assets/images/orangebg.jpg");
   -webkit-background-clip: text;
 }
@@ -515,6 +517,14 @@ footer {
     margin-top: 20px;
     text-align: center;
     width: 227px;
+  }
+
+  .showcase h1 {
+    width: 98%;
+    font-size: 45px;
+    font-weight: 900;
+    margin: 0 auto;
+    -webkit-text-stroke: 1px #ec5242;
   }
 
   .showcase h3 {
